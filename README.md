@@ -9,6 +9,7 @@ Load the dependancies, then run composer.phar update. Finally, curl the install 
 
 Screen Shots
 ------------
+(hover for caption)
 ![Staring the API](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/1.png?raw=true)  
 ![Starting the web server in development](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/2.png?raw=true)  
 ![First page controls](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/3.png?raw=true)  
@@ -18,7 +19,7 @@ Screen Shots
 ![Create a rule, Active = 1 for true](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/7.png?raw=true)  
 ![Click tests to manage test cases](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/8.png?raw=true)  
 ![Click the test button next to a rule to test it](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/9.png?raw=true)  
-![test result]https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/10.png?raw=true)  
+![test result](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/10.png?raw=true)  
 ![you can also test an entire resultset. Currently they run in order](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/11.png?raw=true)  
 
 Dependancies
