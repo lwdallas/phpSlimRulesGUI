@@ -1,0 +1,6 @@
+{
+    "require": {
+        "hoa/ruler": "~1.0",
+        "slim/slim": "~2.6"
+    }
+}
