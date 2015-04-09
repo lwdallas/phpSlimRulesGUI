@@ -9,17 +9,27 @@ Load the dependancies, then run composer.phar update. Finally, curl the install 
 
 Screen Shots
 ------------
-(hover for caption)
-![Staring the API](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/1.png?raw=true)  
+Start the web service on port 3000.  
+![Starting the API](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/1.png?raw=true)  
+Start the web server on port 4000. In production, you would likely use Apache or reverse proxy.   
 ![Starting the web server in development](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/2.png?raw=true)  
+Top level page.  
 ![First page controls](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/3.png?raw=true)  
+Rulesets.  
 ![Rulesets](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/5.png?raw=true)  
-![Creating a new ruleset - not required but recommended](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/4.png?raw=true) 
-![Menu bar](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/6.png?raw=true)
+It is a good idea to create a ruleset for your rules, but it isn't required.  
+![Creating a new ruleset - not required but recommended](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/4.png?raw=true)
+The menu bar.  
+![Menu bar](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/6.png?raw=true)  
+Create a new rule. Only the rule is required but all fields are recommended. Active should be 1 or 0, 1 represents true.  
 ![Create a rule, Active = 1 for true](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/7.png?raw=true)  
+Test cases are managed under Tests.  
 ![Click tests to manage test cases](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/8.png?raw=true)  
+Click the test button next to a rule to test it.  
 ![Click the test button next to a rule to test it](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/9.png?raw=true)  
+Test result.  
 ![test result](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/10.png?raw=true)  
+You can also test an entire resultset. Currently they run in order.  
 ![you can also test an entire resultset. Currently they run in order](https://github.com/lwdallas/phpSlimRulesGUI/blob/master/doc/img/11.png?raw=true)  
 
 Dependancies
