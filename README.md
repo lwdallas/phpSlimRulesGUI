@@ -41,33 +41,44 @@ Slim
 
 RUN
 ===
+```bash
 http-app$ php -S localhost:4000  
-rulespoc$ php -S localhost:3000  
-(port doesn't matter but front-end expects 3000 for curl ATM)  
+rulespec$ php -S localhost:3000  
+# (port doesn't matter but front-end expects 3000 for curl ATM)  
+```
 
 REST Examples
 =============
 
 Create the SQLite DB (REQUIRED FIRST STEP)
 --------------------
+```bash
 curl -X GET http://127.0.0.1:3000/install
+```
 
 List
 ----
+```bash
 curl -X GET http://127.0.0.1:3000/rule  
 curl -X GET http://127.0.0.1:3000/ruleset
+```
 
 Update
 ------
+```bash
 curl -X PUT -d "ruleset=1" -d "rule_active=0" -d "rule_comment=ignore this one" -d "rule=something = 1 and another < 10 or unfinished idea" http://127.0.0.1:3000/rule/3
-
+```
 Insert
 ------
+```bash
 curl -X POST -d "ruleset=1" -d "rule_active=0" -d "rule_comment=ignore this one" -d "rule=something = 1 and another < 10 or unfinished idea" http://127.0.0.1:3000/rule
+```
 
 Delete record
 -------------
+```bash
 curl -X DELETE http://127.0.0.1:3000/rule/3
+```
 
 Roadmap
 -------
